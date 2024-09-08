@@ -22,7 +22,7 @@ export const Models = () => {
     },
    
   ]);
-
+/*
   const handleAddModel = () => {
    
     const newModel: Model = {
@@ -47,7 +47,7 @@ export const Models = () => {
    
     const updatedModels = models.filter((model) => model.id !== id);
     setModels(updatedModels);
-  };
+  };*/
   return (
     <> 
     <div className="models-container">

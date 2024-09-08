@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import '../styles/ExclusiveMembership.css';
 import { Membership } from '../Models/Menberships';
 

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+
 import '../styles/FashionEvents.css';
 import { Event } from '../Models/Events'
 
