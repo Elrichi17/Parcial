@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import '../styles/MakeupProducts.css';
 import { Product } from '../Models/Product';
 import Lipstick from '../Images/Lipstick.jpg';

@@ -5,7 +5,8 @@ import adrianaLima from '../Images/Adriana_Lima.jpg';
 import kendal from '../Images/Kendall Jenner.jpg';
 export const Models = () => {
   // Para añadir y eliminar modleos hay que hacer una verificacion de que eres admin (Credenciales en backend) 
-  const [models, setModels] = useState<Model[]>([
+  const [models, /* setModels */] = useState<Model[]>([
+  
     {
       id: 1,
       name: 'Adriana Lima',
