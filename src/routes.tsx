@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Home } from './Home';
-import {Models} from './Models';
-import {MakeupProducts} from './MakeupProducts';
-import {FashionEvents} from './FashionEvents';
-import {PhotoSales} from './PhotoSales';
-import {ExclusiveMenberships} from './ExclusiveMemberships';
-import {ContactUs} from './ContactUs';
-import {AdminDashboard} from './AdminDashBoard';  
+import { Home } from './Components/Home';
+import {Models} from './Components/Models';
+import {MakeupProducts} from './Components/MakeupProducts';
+import {FashionEvents} from './Components/FashionEvents';
+import {PhotoSales} from './Components/PhotoSales';
+import {ExclusiveMenberships} from './Components/ExclusiveMemberships';
+import {ContactUs} from './Components/ContactUs';
+import {AdminDashboard} from './Components/AdminDashBoard';  
 
 const AppRoutes = () => (
   <Router>
